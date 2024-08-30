@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./bg.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centre-container{
+    height: 80vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 20px; */
+    /* border: 2px solid  rgb(151, 35, 15) ; */
+}
+.left-p{
+    height: 80vh;
+    width: 40%;
+    background-color: rgb(248, 157, 141);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;     
+}
+.left-p .nav-bar{
+    padding: 10px;
+}
+.left-p .image{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    /* justify-content: center; */
+    /* align-items: end; */
+    
+    
+}
+.image #lady{
+    height: 90%;
+    
+}
+.left-p p{
+    text-align: center;
+    color:  rgb(179, 37, 12);
+    font-size: 22px;
+    padding-inline: 10px;
+}
+.right-p{
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+.right-p .icon{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.form-part .icon i{
+    font-size: 30px;
+    color: rgb(13, 13, 99);
+    padding-inline: 10px;
+}
+.right-p h1{
+    text-align: center;
+    color:rgb(10, 109, 190) ;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.right-p p{
+    text-align: end;
+    padding: 20px;
+
+}
+.right-p a{
+    text-decoration: none;
+    color: rgb(10, 109, 190);
+}
+
+.form-part{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-part span{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.form-part span hr{
+    height: 2px;
+    width: 30%;
+    background-color: black;
+    border: none;
+}
+.pc{
+    display: flex;
+    flex-direction: column;
+}
+.right-p input{
+    height: 35px;
+    width: 55%;
+    background-color:rgb(231, 219, 219) ;
+    border: none;
+    border-radius: 20px;
+    padding-inline-start: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+.right-p button{
+    height: 35px;
+    width: 55%;
+    background-color: rgb(247, 104, 78) ;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
